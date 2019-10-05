@@ -34,13 +34,23 @@ p.people_class {
   font-size:0.9em;
 }
 
+p.talks {
+  line-height:150%;
+  font-size:0.9em;
+}
+
+p.presenter {
+  line-height:150%;
+  font-size:0.9em;
+}
+
 p.people {
   color:rgba(0,0,0,0.8);
   line-height:140%;
   font-size:0.8em;
 }
 
-a:link {color:steelblue;text-decoration:none;}
+a:link {color:#045FB4;text-decoration:none;}
 a:hover {color:DarkCyan;text-decoration:underline;}
 a:active {color:DarkCyan;text-decoration:underline;}
 
@@ -48,7 +58,7 @@ a:active {color:DarkCyan;text-decoration:underline;}
   background-color:white;
   margin:auto;
   width:1000px;
-  height:2900px;
+  height:3400px;
   margin-bottom:10px;
   margin-top:10px;
   box-shadow:0px 0px 50px rgba(0,0,0,.1);
@@ -74,9 +84,14 @@ a:active {color:DarkCyan;text-decoration:underline;}
   padding-right:80px;
 }
 
+#talks {
+  width:590px;
+  position:absolute;
+}
+
 #people_container {
   width:840px;
-  height:270px;
+  height:240px;
   border-top:20px solid rgba(0,0,0,.05);
   border-bottom:2px solid black;
   /*border-left:45px solid rgba(0,0,0,.05);*/
